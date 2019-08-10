@@ -8,13 +8,13 @@ int main()
     char c{askOperator()};
 
     if (c == '+')
-        std::cout << a << " + " << b << " is " << a+b;
+        std::cout << a << " + " << b << " is " << a+b << '\n';
     else if (c == '-')
-        std::cout << a-b;
+        std::cout << a << " - " << b << " is " << a-b << '\n';
     else if (c == '*')
-        std::cout << a*b;
+        std::cout << a << " * " << b << " is " << a*b << '\n';
     else if (c == '/')
-        std::cout << a/b;
+        std::cout << a << " / " << b << " is " << a/b << '\n';
     else
         {};
 
